@@ -12,6 +12,12 @@ management:
     web:
       exposure:
         include: '*'
+spring:
+  rabbitmq:
+    host: 129.204.9.214
+    virtual-host: /java1907host
+    username: java1907
+    password: 123
 
 hystrix:
   command:
